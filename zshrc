@@ -18,4 +18,4 @@ alias -g L="|less"
 # Options 
 [ -f /etc/zsh_command_not_found ] && . /etc/zsh_command_not_found
 
-ssh-add ~/.ssh/id_rsa &>/dev/null
+
