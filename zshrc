@@ -7,7 +7,7 @@ antigen-bundle zsh-users/zsh-syntax-highlighting
 antigen-bundle zsh-users/zsh-history-substring-search
 #antigen bundle zsh_command_not_found
 # Theme
-antigen-theme $HOME/.zsh_theme
+antigen-theme jonstites/dotfiles jonstites
 
 antigen-apply
 
