@@ -1,5 +1,5 @@
 ZSHA_BASE=$HOME/.zsh-antigen
-source $ZSHA_BASE/antigen/antigen.zsh
+source $ZSHA_BASE/antigen.zsh
  
 antigen-use oh-my-zsh
 antigen-bundle git
@@ -17,6 +17,5 @@ alias -g L="|less"
 
 # Options 
 [ -f /etc/zsh_command_not_found ] && . /etc/zsh_command_not_found
-
 
 ssh-add ~/.ssh/id_rsa &>/dev/null
