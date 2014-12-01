@@ -13,9 +13,11 @@ antigen-apply
 
 # Aliases
 alias rm="rm -i"
-alias -g L="|less"
+alias -g L="|less -S"
 
 # Options 
 [ -f /etc/zsh_command_not_found ] && . /etc/zsh_command_not_found
 
-
+# update PATH
+path+=('/home/jon/bin')
+export PATH
