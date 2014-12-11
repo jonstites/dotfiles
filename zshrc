@@ -14,6 +14,8 @@ antigen-apply
 # Aliases
 alias rm="rm -i"
 alias -g L="|less -S"
+alias cp="cp -i"
+alias pyv="source ~/environments/jontools.py-3.4/bin/activate"
 
 # Options 
 [ -f /etc/zsh_command_not_found ] && . /etc/zsh_command_not_found
