@@ -17,6 +17,8 @@ alias -g L="|less -S"
 alias cp="cp -i"
 alias pyv="source ~/environments/jontools.py-3.4/bin/activate"
 alias emacs="emacs -mm"
+alias -s png=okular
+alias -s pdf=okular
 # Options 
 [ -f /etc/zsh_command_not_found ] && . /etc/zsh_command_not_found
 
