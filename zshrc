@@ -5,7 +5,7 @@ antigen-use oh-my-zsh
 antigen-bundle git
 antigen-bundle zsh-users/zsh-syntax-highlighting
 antigen-bundle zsh-users/zsh-history-substring-search
-antigen bundle zsh-command-not-found
+antigen bundle command-not-found
 
 # Theme
 antigen-theme jonstites/dotfiles jonstites

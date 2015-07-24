@@ -1,4 +1,4 @@
-1;2802;0c#!/usr/bin/env bash
+#!/usr/bin/env bash
 
 
 command -v zsh >/dev/null 2>&1 || { echo >&2 "I require zsh but it's not installed.  Aborting."; exit 1; }
