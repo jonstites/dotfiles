@@ -5,7 +5,8 @@ antigen-use oh-my-zsh
 antigen-bundle git
 antigen-bundle zsh-users/zsh-syntax-highlighting
 antigen-bundle zsh-users/zsh-history-substring-search
-#antigen bundle zsh_command_not_found
+antigen bundle zsh-command-not-found
+
 # Theme
 antigen-theme jonstites/dotfiles jonstites
 
@@ -20,9 +21,8 @@ alias pyv="source ~/environments/jontools.py-3.4/bin/activate"
 alias emacs="emacs -mm -nw"
 alias -s png=okular
 alias -s pdf=okular
+
 # Options 
 [ -f /etc/zsh_command_not_found ] && . /etc/zsh_command_not_found
 
-# update PATH
-path+=('/home/jon/bin')
-export PATH
+
