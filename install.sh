@@ -7,5 +7,5 @@ command -v zsh >/dev/null 2>&1 || { echo >&2 "I require zsh but it's not install
 git clone https://github.com/zsh-users/antigen.git .zsh-antigen
 
 echo "Renaming current directory to .dotfiles"
-mv . ../.dotfiles
+mv $pwd ../.dotfiles
 cd ../.dotfiles
