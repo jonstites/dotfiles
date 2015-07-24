@@ -1,4 +1,4 @@
-ZSHA_BASE=$HOME/.zsh-antigen
+1;2802;0cZSHA_BASE=$HOME/.zsh-antigen
 source $ZSHA_BASE/antigen.zsh
  
 antigen-use oh-my-zsh
@@ -17,7 +17,7 @@ alias -g L="|less -S"
 alias cp="cp -i"
 alias mv="mv -i"
 alias pyv="source ~/environments/jontools.py-3.4/bin/activate"
-alias emacs="emacs -mm"
+alias emacs="emacs -mm -nw"
 alias -s png=okular
 alias -s pdf=okular
 # Options 
