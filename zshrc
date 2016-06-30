@@ -8,7 +8,7 @@ antigen-bundle zsh-users/zsh-history-substring-search
 antigen bundle command-not-found
 
 # Theme
-antigen-theme jonstites/dotfiles jonstites
+antigen-theme jonstites
 
 antigen-apply
 
@@ -17,7 +17,6 @@ alias rm="rm -i"
 alias -g L="|less -S"
 alias cp="cp -i"
 alias mv="mv -i"
-alias pyv="source ~/environments/jontools.py-3.4/bin/activate"
 alias emacs="emacs -mm -nw"
 alias -s png=okular
 alias -s pdf=okular
