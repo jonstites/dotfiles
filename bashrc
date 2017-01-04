@@ -119,5 +119,3 @@ export HISTFILESIZE=100000               # big big history
 
 PATH=$PATH:/mnt/nas/projects/human/analysis/hg19/chicago_017/homer/.//bin/
 
-# Colorful user prompt
-PS1='\[\e[0;32m\]\u\[\e[m\] \[\e[1;34m\]\w\[\e[m\] \[\e[1;32m\]\$\[\e[m\] \[\e[1;37m\]'
