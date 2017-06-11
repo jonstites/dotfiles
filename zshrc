@@ -1,16 +1,16 @@
 ZSHA_BASE=$HOME/.zsh-antigen
 source $ZSHA_BASE/antigen.zsh
  
-antigen-use oh-my-zsh
-antigen-bundle git
-antigen-bundle zsh-users/zsh-syntax-highlighting
-antigen-bundle zsh-users/zsh-history-substring-search
+antigen use oh-my-zsh
+antigen bundle git
+antigen bundle zsh-users/zsh-syntax-highlighting
+antigen bundle zsh-users/zsh-history-substring-search
 antigen bundle command-not-found
 
 # Theme
 antigen theme https://gist.github.com/251f4c8c0981ef3a33e8a5c1917ca5a9.git jonstites
 
-antigen-apply
+antigen apply
 
 # Aliases
 alias rm="rm -i"
