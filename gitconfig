@@ -1,0 +1,5 @@
+[user]
+	email = mail@jonstites.com
+	name = Jonathan Stites
+[core]
+	editor = emacs
