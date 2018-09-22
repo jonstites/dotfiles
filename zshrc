@@ -25,3 +25,4 @@ alias -s pdf=okular
 [ -f /etc/zsh_command_not_found ] && . /etc/zsh_command_not_found
 
 
+export PATH=$PATH:~/.cargo/bin/
