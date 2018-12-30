@@ -1,7 +1,8 @@
-#!/usr/bin/env bash
+#!/usr/bin/fish
 
+# misc. configuration files
+set files emacs gitconfig tmux.conf
 
-command -v zsh >/dev/null 2>&1 || { echo >&2 "I require zsh but it's not installed.  Aborting."; exit 1; }
-
-git clone --recursive https://github.com/zsh-users/antigen.git zsh-antigen
-./makesymlinks.sh
+for file in $files
+    ln -s (readlink -f $file) ~/.$file
+end
